@@ -1,0 +1,30 @@
+.head {
+    display: flex;
+    justify-content: center;
+    background-color: #ccb649;
+    height: 100px;
+}
+
+.contain{
+    height: 700px;
+    background-color: #ccb649;
+    border: 1px solid;
+}
+
+.project{
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+    border: 1px solid;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+@media screen and (max-width: 360px) {
+    .contain {
+        height: 900px;
+        mix-width: 150px;
+    }
+
+}
