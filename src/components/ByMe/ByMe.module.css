@@ -1,9 +1,9 @@
 .container {
     display: flex;
     justify-content: space-around;
-    height: 700px;
+    /*height: 700px;*/
     background-color: antiquewhite;
-flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 
 .me {
@@ -12,7 +12,7 @@ flex-wrap: wrap;
 
 .foto {
     background-color: crimson;
-    height: 400px;
+    height: 300px;
     width: 300px;
     align-self: center;
 

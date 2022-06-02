@@ -3,7 +3,7 @@
     justify-content: space-around;
     background-color: darkslateblue;
     align-items: center;
-    width: 400px;
+    min-width: 400px;
     height: 80px;
     border: 1px solid;
     text-align: end;

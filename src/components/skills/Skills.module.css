@@ -1,5 +1,5 @@
 .contain {
-    height: 700px;
+    min-height: 700px;
     background-color: #c199e1;
     border: 1px solid;
 
@@ -18,12 +18,12 @@
     display: flex;
     justify-content: center;
     background-color: #c199e1;
-    height: 100px;
+    min-height: 100px;
 }
 
 @media screen and (max-width: 406px) {
     .contain {
-        height: 1200px;
+        min-height: 1200px;
     }
 
 }

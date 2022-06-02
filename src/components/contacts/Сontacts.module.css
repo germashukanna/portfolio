@@ -1,5 +1,5 @@
 .contain{
-    height: 700px;
+    /*height: 700px;*/
     background-color: #bb49cc;
     border: 1px solid;
 }
@@ -7,7 +7,7 @@
 .head{
     display: flex;
     justify-content: center;
-    background-color: #bb49cc;
+    background-color: #61dafb;
     height: 100px;
 }
 
