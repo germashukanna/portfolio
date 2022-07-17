@@ -1,0 +1,26 @@
+@import '../../common/style/sass/variable';
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: $mainbackgroundColor;
+    .me {
+        align-self: center;
+        font-family: 'Syne Mono', monospace;
+        color: $mainTextColor;
+        font-weight: 400;
+        font-size: 30px;
+    }
+    .Photo {
+        background-color: crimson;
+        height: 300px;
+        width: 300px;
+        align-self: center;
+
+    }
+}
+
+
+
+

@@ -1,0 +1,48 @@
+@import '../../../common/style/sass/variable';
+
+.project {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  /*height: 300px;*/
+  background-color: $secondbackgroundColor;
+  flex-direction: column;
+  @media screen and (max-width: 406px) {
+    min-width: 100px;
+  }
+
+  .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 220px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+    &::before {
+      position: absolute;
+      content: '';
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color:$mainbackgroundColor;
+      opacity: 0.4;
+    }
+
+    .btn {
+      position: relative;
+      z-index: 1;
+    }
+  }
+
+  .block {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+}
+

@@ -6,6 +6,7 @@ import {Skills} from "./components/skills/Skills";
 import {Projects} from "./components/projects/Projects";
 import {Contacts} from "./components/contacts/Сontacts";
 import {Footer} from "./components/footer/Footer";
+import {Stars} from "./components/Stars/Stars";
 
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
         <div className={'app-wrapper'}>
             <Header/>
             <ByMe/>
+            <Stars/>
             <Skills/>
             <Projects/>
             <Contacts/>

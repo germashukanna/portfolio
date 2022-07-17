@@ -1,17 +1,31 @@
 import React from 'react';
-import s from './Projects.module.css'
-import {Project} from "./project/Project.js";
+import s from './Projects.module.scss'
+import {Project} from './project/Project.js';
+import {Title} from '../../common/components/Title';
+import todoListImage from './../../assets/image/glenn-carstens-peter.jpg'
+import socialImage from './../../assets/image/DeathtoStock_Creative-Community5.jpg'
+
+
 
 
 export const Projects = () => {
+
+    const social = {
+        backgroundImage: `url(${socialImage})`
+    }
+
+    const todoList = {
+        backgroundImage: `url(${todoListImage})`
+    }
+
     return (
         <div className={s.contain}>
             <div className={s.head}>
-                <h2>Мои работы</h2>
+                <Title title={"Мои работы"}/>
             </div>
             <div className={s.project}>
-                <Project title={"Путь самурая"} name={"соц сеть..."}/>
-                <Project title={"Toodolist"} name={"список дел..."}/>
+                <Project style={social} title={"Путь самурая"} name={"соц сеть..."}/>
+                <Project style={todoList} title={"Toodolist"} name={"список дел..."}/>
             </div>
         </div>
     )

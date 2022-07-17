@@ -1,0 +1,31 @@
+@import '../../common/style/sass/variable';
+
+.contain {
+  min-height: 700px;
+  background-color: $mainbackgroundColor;
+  border: 1px solid;
+  @media screen and (max-width: 360px) {
+    min-height: 900px;
+    mix-width: 150px;
+  }
+
+  .head {
+    display: flex;
+    justify-content: center;
+    background-color: $mainbackgroundColor;
+    min-height: 100px;
+  }
+
+  .project {
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+    border: 1px solid;
+    align-items: center;
+    flex-wrap: wrap;
+
+  }
+}
+
+
+

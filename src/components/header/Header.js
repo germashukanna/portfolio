@@ -1,6 +1,6 @@
 import React from 'react';
-import s from './Header.module.css'
-import styleCommon from '../../common/common.module.css'
+import s from './Header.module.scss'
+import styleCommon from '../../common/style/common.module.css'
 import {Navigation} from "../Navigation/Nav";
 
 

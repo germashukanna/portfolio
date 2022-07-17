@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './ByMe.module.css'
+import s from './ByMe.module.scss'
 
 
 export const ByMe = () => {
@@ -7,10 +7,10 @@ export const ByMe = () => {
         <div className={s.container}>
             <div className={s.me}>
                 <span>Привет!</span>
-                <h1>Меня зовут Анна Гермашук</h1>
+                <p>Меня зовут Анна Гермашук</p>
                 <p>Я front-end разработчик</p>
             </div>
-            <div className={s.foto}>
+            <div className={s.Photo}>
 
             </div>
         </div>

@@ -1,0 +1,27 @@
+@import '../../common/style/sass/variable';
+
+.contain {
+  min-height: 700px;
+  border: 1px solid;
+  background-color: $mainbackgroundColor;
+  @media screen and (max-width: 406px) {
+    min-height: 1200px;
+
+  }
+
+  .head {
+    display: flex;
+    justify-content: center;
+    min-height: 100px;
+    background-color: $mainbackgroundColor;
+  }
+
+  .skills {
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+    border: 1px solid;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}

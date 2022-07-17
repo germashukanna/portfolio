@@ -1,0 +1,25 @@
+@import '../../../common/style/sass/variable';
+
+.skill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    /*height: 300px;*/
+    background-color: $secondbackgroundColor;
+    flex-direction: column;
+    .icon{
+        width: 60px;
+        height: 60px;
+        display: flex;
+        flex-wrap: wrap;
+        background-size: cover;
+        background-position: center;
+        margin-top: 5px;
+    }
+}
+
+
+
+
+
