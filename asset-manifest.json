@@ -1,15 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.45cb93d3.css",
-    "main.js": "/portfolio/static/js/main.6160fc7e.js",
+    "main.css": "/portfolio/static/css/main.7738c184.css",
+    "main.js": "/portfolio/static/js/main.78315295.js",
     "static/js/787.28cb0dcd.chunk.js": "/portfolio/static/js/787.28cb0dcd.chunk.js",
+    "static/media/DeathtoStock_Creative-Community5.jpg": "/portfolio/static/media/DeathtoStock_Creative-Community5.bb397e08172de59ad259.jpg",
+    "static/media/React.png": "/portfolio/static/media/React.90be5458eec7b30efda7.png",
+    "static/media/star1.png": "/portfolio/static/media/star1.ed2ea9c78f91092c75b4.png",
+    "static/media/star3.png": "/portfolio/static/media/star3.ed2ea9c78f91092c75b4.png",
+    "static/media/glenn-carstens-peter.jpg": "/portfolio/static/media/glenn-carstens-peter.08a9ed63d680fc6a1f2b.jpg",
+    "static/media/star2.png": "/portfolio/static/media/star2.e9c1c66c360e316c00ab.png",
+    "static/media/Css.png": "/portfolio/static/media/Css.9285c39fee82ead48049.png",
+    "static/media/Js.png": "/portfolio/static/media/Js.f13b508df08c8782d1e2.png",
     "index.html": "/portfolio/index.html",
-    "main.45cb93d3.css.map": "/portfolio/static/css/main.45cb93d3.css.map",
-    "main.6160fc7e.js.map": "/portfolio/static/js/main.6160fc7e.js.map",
+    "main.7738c184.css.map": "/portfolio/static/css/main.7738c184.css.map",
+    "main.78315295.js.map": "/portfolio/static/js/main.78315295.js.map",
     "787.28cb0dcd.chunk.js.map": "/portfolio/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.45cb93d3.css",
-    "static/js/main.6160fc7e.js"
+    "static/css/main.7738c184.css",
+    "static/js/main.78315295.js"
   ]
 }
