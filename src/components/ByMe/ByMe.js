@@ -11,7 +11,6 @@ export const ByMe = () => {
                 <p>Я front-end разработчик</p>
             </div>
             <div className={s.Photo}>
-
             </div>
         </div>
     )

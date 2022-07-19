@@ -1,0 +1,22 @@
+@import '../../common/style/sass/variable';
+@import '../../common/style/sass/mixins';
+
+.navigation {
+  position: relative;
+  @include textPosition(flex, space-around, nowrap);
+  align-items: center;
+  min-width: 400px;
+  height: 80px;
+  text-align: end;
+  @include text(700, 18px);
+  color: $secondTextColor;
+  text-transform: uppercase;
+  letter-spacing: .02em;
+  line-height: .881em;
+  margin: 50px 40px;
+
+
+  a {
+    transition: color .2s ease-out;
+  }
+}

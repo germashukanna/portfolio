@@ -10,10 +10,7 @@ import {Stars} from "./components/Stars/Stars";
 
 
 const App = () => {
-
-
     return (
-
         <div className={'app-wrapper'}>
             <Header/>
             <ByMe/>

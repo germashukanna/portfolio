@@ -25,9 +25,9 @@ export const Skills = () => {
                 <Title title={"Мои скиллы"}/>
             </div>
             <div className={s.skills}>
-                <Skill style={cssImage} title={"HTML/CSS"} name={"такие себе навыки"}/>
-                <Skill style={jsImage} title={"JS"} name={"такие себе навыки"}/>
-                <Skill style={reactImage} title={"React"} name={"такие себе навыки"}/>
+                <Skill style={cssImage} title={"HTML/CSS"} name={"нелбходимо додумать8)"}/>
+                <Skill style={jsImage} title={"JS"} name={"нелбходимо додумать8)"}/>
+                <Skill style={reactImage} title={"React"} name={"нелбходимо додумать8)"}/>
             </div>
         </div>
     )

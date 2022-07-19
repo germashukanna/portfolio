@@ -1,26 +1,19 @@
 @import '../../common/style/sass/variable';
+@import '../../common/style/sass/mixins';
 
 .container {
-  /*height: 500px;*/
-  background-color: $mainbackgroundColor;
   border: 1px solid;
-  display: flex;
-  justify-content: space-between;
+  @include textPosition(flex, space-between, nowrap);
   align-items: center;
   flex-direction: column;
   @media screen and (max-width: 406px) {
     min-height: 900px;
   }
-
   .list {
     list-style: none;
-    display: flex;
-    justify-content: space-around;
+    @include textPosition(flex, space-around, wrap);
     align-items: center;
-    /*flex-direction: column;*/
-    flex-wrap: wrap;
     width: 100%;
-
   }
 
   .listFooter {

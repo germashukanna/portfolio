@@ -14,8 +14,8 @@ export const Project = (props: ProjectPropsType) => {
                 <button className={s.btn}>Смотреть</button>
             </div>
             <div className={s.block}>
-                <h3>{props.title}</h3>
-                <span>{props.name}</span>
+                <h3 className={s.titleSkill}>{props.title}</h3>
+                <span className={s.description}>{props.name}</span>
             </div>
         </div>
     )

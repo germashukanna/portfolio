@@ -12,15 +12,15 @@ export const Contacts = () => {
 
             <form className={s.form}>
                 <label>
-                    <input className={s.input} type="text" name="name"/>
+                    <input className={s.input} type="text" name="name" placeholder={'Name'}/>
                 </label>
                 <label>
-                    <input className={s.input} type="text" name="name"/>
+                    <input className={s.input} type="text" name="name" placeholder={'Your Email'}/>
                 </label>
                 <label>
-                    <textarea className={s.textarea}/>
+                    <textarea className={s.textarea} placeholder={'Your Message'}/>
                 </label>
-                <button>Отправить</button>
+                <button className={s.btn}>SEND MESSAGE</button>
             </form>
         </div>
     )

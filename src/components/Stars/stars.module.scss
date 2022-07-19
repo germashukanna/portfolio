@@ -1,6 +1,7 @@
+@import '../../common/style/sass/variable';
+@import '../../common/style/sass/mixins';
+
 .stars {
-  display: flex;
-  justify-content: space-around;
-  background-color: black;
-  flex-wrap: wrap;
+@include textPosition(flex, space-around, wrap);
+  margin: 70px 0;
 }

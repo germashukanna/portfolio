@@ -1,16 +1,12 @@
 @import '../../common/style/sass/variable';
+@import '../../common/style/sass/mixins';
 
 .container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    background-color: $mainbackgroundColor;
+    @include textPosition(flex, space-around, wrap);
     .me {
         align-self: center;
-        font-family: 'Syne Mono', monospace;
-        color: $mainTextColor;
-        font-weight: 400;
-        font-size: 30px;
+        @include text(400, 30px)
+
     }
     .Photo {
         background-color: crimson;

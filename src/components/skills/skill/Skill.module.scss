@@ -1,13 +1,14 @@
 @import '../../../common/style/sass/variable';
+@import '../../../common/style/sass/mixins';
 
 .skill {
-    display: flex;
-    justify-content: center;
+    @include textPosition(flex, center, nowrap);
+    background-color: $secondbackgroundColor;
     align-items: center;
     width: 200px;
-    /*height: 300px;*/
-    background-color: $secondbackgroundColor;
     flex-direction: column;
+
+    color: $secondTextColor;
     .icon{
         width: 60px;
         height: 60px;
@@ -16,6 +17,14 @@
         background-size: cover;
         background-position: center;
         margin-top: 5px;
+    }
+    .titleSkill{
+        @include text(400, 20px);
+        color: $secondTextColor;
+    }
+    .description{
+        @include text(400, 15px);
+        color: $secondTextColor;
     }
 }
 

@@ -8,8 +8,8 @@
 }
 
 @mixin textPosition($display, $justifyContent, $flexWrap) {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  display: $display;
+  justify-content: $justifyContent;
+  flex-wrap: $flexWrap;
   background-color: $mainbackgroundColor;
 }
