@@ -22,7 +22,7 @@ export const Skills = () => {
     return (
         <div className={s.contain}>
             <div className={s.head}>
-                <Title title={"Мои скиллы"}/>
+                <Title title={"MY SKILLS"}/>
             </div>
             <div className={s.skills}>
                 <Skill style={cssImage} title={"HTML/CSS"} name={"нелбходимо додумать8)"}/>

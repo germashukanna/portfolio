@@ -7,7 +7,7 @@ export const Contacts = () => {
     return (
         <div className={s.contain}>
             <div className={s.head}>
-                <Title title={'Контакты'}/>
+                <Title title={'CONTACTS'}/>
             </div>
 
             <form className={s.form}>

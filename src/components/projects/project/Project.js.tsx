@@ -11,7 +11,7 @@ export const Project = (props: ProjectPropsType) => {
     return (
         <div className={s.project}>
             <div className={s.img} style={props.style}>
-                <button className={s.btn}>Смотреть</button>
+                <button className={s.btn}>VIEW PROJECT</button>
             </div>
             <div className={s.block}>
                 <h3 className={s.titleSkill}>{props.title}</h3>

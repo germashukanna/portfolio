@@ -21,11 +21,11 @@ export const Projects = () => {
     return (
         <div className={s.contain}>
             <div className={s.head}>
-                <Title title={"Мои работы"}/>
+                <Title title={"MY PORTFOLIO"}/>
             </div>
             <div className={s.project}>
-                <Project style={social} title={"Путь самурая"} name={"соц сеть..."}/>
-                <Project style={todoList} title={"Toodolist"} name={"список дел..."}/>
+                <Project style={social} title={"THE SOCIAL NETWORK"} name={"соц сеть..."}/>
+                <Project style={todoList} title={"TODOLIST"} name={"список дел..."}/>
             </div>
         </div>
     )

@@ -13,23 +13,22 @@
     list-style: none;
     @include textPosition(flex, space-around, wrap);
     align-items: center;
-    width: 100%;
+    width: 90%;
+    margin: 55px 0;
   }
 
   .listFooter {
     width: 50px;
     height: 50px;
+    @include textPosition(flex, space-around, wrap);
     background-color: bisque;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
     padding: 10px;
-    /*margin: 10px;*/
   }
 
   .footerEhd {
     display: flex;
     justify-content: center;
+    color: $mainTextColor;
   }
 }
 
