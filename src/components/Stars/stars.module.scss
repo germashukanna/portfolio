@@ -2,6 +2,7 @@
 @import '../../common/style/sass/mixins';
 
 .stars {
-@include textPosition(flex, space-around, wrap);
+  @include textPosition(flex, space-around, wrap);
   margin: 70px 0;
+
 }

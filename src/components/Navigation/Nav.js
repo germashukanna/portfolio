@@ -8,6 +8,7 @@ export const Navigation = () => {
             <a>SKILLS</a>
             <a>PORTFOLIO</a>
             <a>CONTACTS</a>
+
         </div>
     )
 

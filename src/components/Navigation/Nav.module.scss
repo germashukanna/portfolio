@@ -14,9 +14,12 @@
   letter-spacing: .02em;
   line-height: .881em;
   margin: 50px 40px;
-
-
-  a {
-    transition: color .2s ease-out;
+  @media screen and (max-width: 406px) {
+    font-size: 15px;
+    font-weight: 400;
+    margin: 10px 10px;
+    a {
+      transition: color .2s ease-out;
+    }
   }
 }
