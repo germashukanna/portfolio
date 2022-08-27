@@ -14,7 +14,7 @@ const App = () => {
         <div className={'app-wrapper'}>
             <Header/>
             <ByMe/>
-            <Stars/>
+            {/*<Stars/>*/}
             <Skills/>
             <Projects/>
             <Contacts/>

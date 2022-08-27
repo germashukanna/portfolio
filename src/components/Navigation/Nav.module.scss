@@ -5,7 +5,8 @@
   position: relative;
   @include textPosition(flex, space-around, nowrap);
   align-items: center;
-  min-width: 400px;
+  max-width: 400px;
+  width: 100%;
   height: 80px;
   text-align: end;
   @include text(700, 18px);
