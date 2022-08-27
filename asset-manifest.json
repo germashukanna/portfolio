@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.5c7c637e.css",
+    "main.css": "/portfolio/static/css/main.e3a475e7.css",
     "main.js": "/portfolio/static/js/main.db7c8e1c.js",
     "static/js/787.28cb0dcd.chunk.js": "/portfolio/static/js/787.28cb0dcd.chunk.js",
     "static/media/DeathtoStock_Creative-Community5.jpg": "/portfolio/static/media/DeathtoStock_Creative-Community5.bb397e08172de59ad259.jpg",
@@ -9,12 +9,12 @@
     "static/media/Css.png": "/portfolio/static/media/Css.9285c39fee82ead48049.png",
     "static/media/Js.png": "/portfolio/static/media/Js.f13b508df08c8782d1e2.png",
     "index.html": "/portfolio/index.html",
-    "main.5c7c637e.css.map": "/portfolio/static/css/main.5c7c637e.css.map",
+    "main.e3a475e7.css.map": "/portfolio/static/css/main.e3a475e7.css.map",
     "main.db7c8e1c.js.map": "/portfolio/static/js/main.db7c8e1c.js.map",
     "787.28cb0dcd.chunk.js.map": "/portfolio/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c7c637e.css",
+    "static/css/main.e3a475e7.css",
     "static/js/main.db7c8e1c.js"
   ]
 }
