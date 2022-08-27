@@ -6,6 +6,10 @@
   @include textPosition(flex, space-between, nowrap);
   align-items: center;
   flex-direction: column;
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
   @media screen and (max-width: 406px) {
     min-height: 900px;
   }
@@ -15,6 +19,7 @@
     align-items: center;
     width: 90%;
     margin: 55px 0;
+    padding: 0 0;
   }
 
   .listFooter {
@@ -22,7 +27,7 @@
     height: 50px;
     @include textPosition(flex, space-around, wrap);
     background-color: bisque;
-    padding: 10px;
+
   }
 
   .footerEhd {
