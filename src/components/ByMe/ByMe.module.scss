@@ -2,23 +2,24 @@
 @import '../../common/style/sass/mixins';
 
 .container {
-    max-width: 1170px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 15px;
-    @include textPosition(flex, space-around, wrap);
-    .me {
-        align-self: center;
-        @include text(400, 30px)
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+  @include textPosition(flex, space-around, wrap);
 
-    }
-    .Photo {
-        background-color: crimson;
-        height: 300px;
-        width: 300px;
-        align-self: center;
+  .me {
+    align-self: center;
+    @include text(400, 30px)
 
-    }
+  }
+
+  .Photo img {
+    height: 300px;
+    width: 300px;
+    align-self: center;
+
+  }
 }
 
 
