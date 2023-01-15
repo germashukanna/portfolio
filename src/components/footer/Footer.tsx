@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './Footer.module.scss'
-import {Title} from "../../common/components/Title";
+import {Title} from "../../common/components/Title/Title";
 
 
 export const Footer = () => {

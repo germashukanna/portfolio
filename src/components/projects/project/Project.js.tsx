@@ -1,5 +1,6 @@
 import React from 'react';
 import s from './Project.module.scss'
+import Button from "@mui/material/Button";
 
 type ProjectPropsType = {
     title: string,
@@ -11,7 +12,7 @@ export const Project = (props: ProjectPropsType) => {
     return (
         <div className={s.project}>
             <div className={s.img} style={props.style}>
-                <button className={s.btn}>VIEW PROJECT</button>
+                <Button className={s.btn}>VIEW PROJECT</Button>
             </div>
             <div className={s.block}>
                 <h3 className={s.titleSkill}>{props.title}</h3>

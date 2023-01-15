@@ -2,31 +2,39 @@
 @import '../../../common/style/sass/mixins';
 
 .skill {
-    @include textPosition(flex, center, nowrap);
-    background-color: $secondbackgroundColor;
-    align-items: center;
-    width: 200px;
-    flex-direction: column;
+  @include textPosition(flex, center, nowrap);
+  background-color: $secondbackgroundColor;
+  align-items: center;
+  width: 200px;
+  flex-direction: column;
 
+  color: $secondTextColor;
+
+  .icon {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    background-size: cover;
+    background-position: center;
+    margin-top: 5px;
+  }
+  .icon:hover {
+    transform: scale(1.2, 1.2);
+    transition: 0.9s
+  }
+
+  .titleSkill {
+    @include text(400, 20px);
     color: $secondTextColor;
-    .icon{
-        width: 60px;
-        height: 60px;
-        display: flex;
-        flex-wrap: wrap;
-        background-size: cover;
-        background-position: center;
-        margin-top: 5px;
-    }
-    .titleSkill{
-        @include text(400, 20px);
-        color: $secondTextColor;
-    }
-    .description{
-        @include text(400, 15px);
-        color: $secondTextColor;
-    }
+  }
+
+  .description {
+    @include text(400, 15px);
+    color: $secondTextColor;
+  }
 }
+
 
 
 
