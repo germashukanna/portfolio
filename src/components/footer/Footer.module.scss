@@ -23,10 +23,8 @@
   }
 
   .listFooter {
-    width: 50px;
-    height: 50px;
     @include textPosition(flex, space-around, wrap);
-    background-color: bisque;
+
   }
   .listFooter:hover {
     transform: scale(1.2, 1.2);
@@ -36,7 +34,7 @@
   .footerEhd {
     display: flex;
     justify-content: center;
-    color: $mainTextColor;
+    color: $secondTextColor;
   }
 }
 

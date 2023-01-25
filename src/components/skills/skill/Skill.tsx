@@ -12,7 +12,8 @@ export const Skill = (props: SkillPropsType) => {
         <div className={s.skill}>
             <div className={s.icon} style={props.style}></div>
             <h3 className={s.titleSkill}>{props.title}</h3>
-            <span className={s.description}>{props.name}</span>
+            <hr className={s.hR}/>
+            <p className={s.description}>{props.name}</p>
         </div>
     )
 

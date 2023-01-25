@@ -1,7 +1,7 @@
 import React from 'react';
 import s from './Header.module.scss'
 import styleCommon from '../../common/style/common.module.css'
-import {Navigation} from "../Navigation/Nav";
+import {Navigation} from "../navigation/Nav";
 
 
 export const Header = () => {

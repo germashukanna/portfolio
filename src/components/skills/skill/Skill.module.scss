@@ -5,19 +5,19 @@
   @include textPosition(flex, center, nowrap);
   background-color: $secondbackgroundColor;
   align-items: center;
-  width: 200px;
+  width: 250px;
+  height: 300px;
   flex-direction: column;
-
   color: $secondTextColor;
-
+  align-items: center;
   .icon {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     display: flex;
     flex-wrap: wrap;
     background-size: cover;
     background-position: center;
-    margin-top: 5px;
+    margin-bottom: 25px;
   }
   .icon:hover {
     transform: scale(1.2, 1.2);
@@ -27,11 +27,22 @@
   .titleSkill {
     @include text(400, 20px);
     color: $secondTextColor;
+    margin-bottom: 25px;
+  }
+
+  hr {
+    border: 0;
+    border-top: 2px solid $mainTextColor;
+  }
+  .hR {
+    margin: 1rem auto;
+    width: 50px;
   }
 
   .description {
     @include text(400, 15px);
     color: $secondTextColor;
+    text-align: center;
   }
 }
 

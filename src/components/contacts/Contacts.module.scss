@@ -1,0 +1,18 @@
+@import '../../common/style/sass/mixins';
+
+.contactsBlock {
+  padding: 6.25rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  .head {
+    @include textPosition(flex, center, nowrap);
+    min-height: 100px;
+  }
+  .formAndData {
+    margin-top: 3.75rem;
+    width: 95%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+}

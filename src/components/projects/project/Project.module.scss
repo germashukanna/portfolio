@@ -2,89 +2,59 @@
 @import '../../../common/style/sass/mixins';
 
 .project {
-  @include textPosition(flex, center, nowrap);
-  align-items: center;
-  width: 350px;
-  background-color: $secondbackgroundColor;
-  flex-direction: column;
-  @media screen and (max-width: 406px) {
-    min-width: 100px;
+  width: 95%;
+  margin-bottom: 1rem;
+  display: inline-block;
+  &:nth-child(4n+1) .img, &:nth-child(4n) .img {
+    height: 350px;
   }
-
   .img {
-    @include textPosition(flex, center, nowrap);
-    align-items: center;
-    width: 350px;
-    height: 220px;
-    background-size: cover;
+    height: 250px;
     background-position: center;
-    position: relative;
-
-    &::before {
-      position: absolute;
-      content: '';
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      background-color: $mainbackgroundColor;
-      opacity: 0.4;
-    }
-
-    .btn {
-      position: relative;
-      overflow: hidden;
-      z-index: 1;
-      padding: 5px 25px;
-      margin: 0 20px;
-      font-family: $mainFontFamily;
-      font-weight: 600;
-      line-height: 30px;
-      color: $mainbackgroundColor;
-      font-size: 15px;
-      text-transform: uppercase;
-      background: $mainTextColor;
-      border-width: 0;
-      box-shadow: 5px 5px 0 #695a80;
-      outline: none;
-      cursor: pointer;
-      transition: 1.5s;
-
-      &:before {
-        background: #ffeede;
-        transition: .8s ease-out;
-      }
-
-      &:after {
-        transition: .4s ease-in .3s;
-      }
-
+    background-size: cover;
+    .overlay {
+      height: 100%;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      opacity: 0;
+      transition: opacity .25s ease-in-out;
       &:hover {
-        color: $secondTextColor;
-      }
-
-      &:hover:before, &:hover:after {
         opacity: 1;
-        transform: scale(4);
+      }
+      .description {
+        padding: 1rem;
+        font-family: $mainFontFamily;
+        h3 {
+          text-transform: uppercase;
+          font-weight: 800;
+          font-size: 1.5rem;
+          color: #070d1b;
+        }
+        p {
+          color: $secondTextColor;
+          margin-bottom: 1.5rem;
+        }
+        .links{
+          display: flex;
+          flex-direction: column;
+          .btnDemo,.btnCode {
+            margin-bottom: 0.3rem;
+            text-decoration: none;
+            border: 1px solid $secondTextColor;
+            outline: 0;
+            transition: .25s;
+            text-transform: uppercase;
+            padding: 0.4rem 0.75rem;
+            cursor: pointer;
+            color: $secondTextColor;
+            &:hover {
+              background-color: #2b2b2b;
+            }
+          }
+
+        }
       }
     }
+
   }
-
-  .block {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-
-    .titleSkill {
-      @include text(400, 20px);
-      color: $secondTextColor;
-    }
-
-    .description {
-      @include text(400, 15px);
-      color: $secondTextColor;
-    }
-  }
-
 }
-
