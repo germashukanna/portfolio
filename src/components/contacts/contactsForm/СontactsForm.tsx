@@ -1,6 +1,5 @@
 import React from 'react';
 import s from './СontactsForm.module.scss'
-import {CustomAnimation} from '../../../common/components/customAnimation/customAnimation';
 import axios from "axios";
 import {useFormik} from "formik";
 

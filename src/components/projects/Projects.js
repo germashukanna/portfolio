@@ -35,16 +35,16 @@ export const Projects = () => {
                              linkDemo={"https://shaveld.github.io/login"}
                              linkCode={"https://github.com/ShavelD/flash-cards"}
                     />
+                    <Project img={socialImage} title={"THE SOCIAL NETWORK"} description={"React, Redux, TS, RestAPI, Thunk"}
+                             linkDemo={"https://germashukanna.github.io/Samurai_social_network/"}
+                             linkCode={"https://github.com/germashukanna/Samurai_social_network/tree/master"}
+                    />
                     <Project img={clockImage} title={"COUNTER"} description={"React, Redux, TS"}
                              linkDemo={"https://germashukanna.github.io/Counter/"}
                              linkCode={"https://github.com/germashukanna/Counter/tree/gh-pages"}
                     />
                     <Project img={storyBookImage} title={"STORYBOOK"} description={"React, TS"}
                              linkCode={"https://github.com/germashukanna/storyBook/tree/main/my-app/src"}
-                    />
-                    <Project img={socialImage} title={"THE SOCIAL NETWORK"} description={"React, Redux, TS, RestAPI, Thunk"}
-                             linkDemo={"https://germashukanna.github.io/Samurai_social_network/"}
-                             linkCode={"https://github.com/germashukanna/Samurai_social_network/tree/master"}
                     />
                     <Project img={carsImage} title={"CARS LANDING PAGE"} description={"Angular, RestAPI, HTML5, CSS3"}
                              linkDemo={"https://germashukanna.github.io/cars-hw/"}
