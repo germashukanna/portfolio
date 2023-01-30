@@ -5,7 +5,6 @@ import {Title} from '../../common/components/title/Title';
 import todoListImage from '../../assets/image/lavender-flower-background.jpg'
 import socialImage from './../../assets/image/notebook-and-smartphone.jpg'
 import tasksImage from '../../assets/image/above-table.jpg'
-import futureImage from '../../assets/image/blank-craft-letter.jpg'
 import packsImage from '../../assets/image/pack-table.jpg'
 import clockImage from './../../assets/image/clock-and-purple-flowers.jpg'
 import storyBookImage from '../../assets/image/lavender-background.jpg'
@@ -50,7 +49,7 @@ export const Projects = () => {
                              linkDemo={"https://germashukanna.github.io/cars-hw/"}
                              linkCode={"https://github.com/germashukanna/cars-hw"}
                     />
-                    <Project img={futureImage} title={"FUTURE PROJECT"} description={"...in progress"}
+                    <Project img={tasksImage} title={"FUTURE PROJECT"} description={"...in progress"}
                     />
                 </div>
             </div>
