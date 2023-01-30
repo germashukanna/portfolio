@@ -2,13 +2,13 @@ import React from 'react';
 import s from './Projects.module.scss'
 import {Project} from './project/Project.js';
 import {Title} from '../../common/components/title/Title';
-import todoListImage from '../../assets/image/lavender-flower-background.jpg'
-import socialImage from './../../assets/image/notebook-and-smartphone.jpg'
-import tasksImage from '../../assets/image/above-table.jpg'
+import todoListImage from '../../assets/image/lavender2.jpg'
+import socialImage from '../../assets/image/notebook.jpg'
+import tasksImage from '../../assets/image/above.jpg'
 import packsImage from '../../assets/image/pack-table.jpg'
-import clockImage from './../../assets/image/clock-and-purple-flowers.jpg'
-import storyBookImage from '../../assets/image/lavender-background.jpg'
-import carsImage from '../../assets/image/painted-background.jpg'
+import clockImage from '../../assets/image/clock-purple.jpg'
+import storyBookImage from '../../assets/image/lavender1.jpg'
+import carsImage from '../../assets/image/painted.jpg'
 
 
 export const Projects = () => {
