@@ -2,14 +2,14 @@ import React from 'react';
 import s from './Projects.module.scss'
 import {Project} from './project/Project.js';
 import {Title} from '../../common/components/title/Title';
-import todoListImage from './../../assets/image/lavender-soap-bar-wooden-stump-body-scrub-dried-flower-and-single-page-notepad-on-pink-background.jpg'
+import todoListImage from '../../assets/image/lavender-flower-background.jpg'
 import socialImage from './../../assets/image/notebook-and-smartphone.jpg'
-import tasksImage from './../../assets/image/above-view-workplace-elements-on-marble-table.jpg'
-import futureImage from './../../assets/image/blank-template-for-a-layout-with-an-invitation-or-a-note-in-a-purple-envelope-on-a-gray-background-decorated-with-dry-grass-blank-paper-card-in-craft-envelope-top-view-of-letter-envelope-and-pen.jpg'
-import packsImage from './../../assets/image/pack-of-blank-business-cards-on-purple-table.jpg'
+import tasksImage from '../../assets/image/above-table.jpg'
+import futureImage from '../../assets/image/blank-craft-letter.jpg'
+import packsImage from '../../assets/image/pack-table.jpg'
 import clockImage from './../../assets/image/clock-and-purple-flowers.jpg'
-import storyBookImage from './../../assets/image/lavender-over-the-closed-notebook-and-two-felt-tip-pens-on-pink-background.jpg'
-import carsImage from './../../assets/image/painted-miniature-formula-one-car-against-pink-background.jpg'
+import storyBookImage from '../../assets/image/lavender-background.jpg'
+import carsImage from '../../assets/image/painted-background.jpg'
 
 
 export const Projects = () => {
